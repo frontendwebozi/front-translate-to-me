@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- INLINE -->
+     <H1 id="head" >HELLE WORLD</H1>
+     <button onclick="translate_aze()">AZE</button>
+     <button onclick="translate_fr()">FR</button>
+     <button onclick="translate_ita()">ITA</button>
+     <button onclick="translate_eng()">ENG</button>
+</body>
+
+<!-- INTERNAL JAVASCRIPT-->
+ <Script>
+
+function translate_aze()  {
+    document.getElementById('head').innerHTML='salam dunya'
+}
+    
+function translate_fr() {
+    document.getElementById('head').innerHTML='bonjour le monde'
+}
+
+function translate_ita() {
+    document.getElementById('head').innerHTML='ciao mondo'
+}
+
+function translate_eng() {
+    document.getElementById('head').innerHTML='hello world'
+}
+
+ </Script>
+
+
+</html>
